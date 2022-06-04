@@ -1,0 +1,365 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #231F39;
+}
+/* Navigation bar header */
+#header{
+    width: 100%;
+    height: 80px;
+    background-color: #231F35;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    position: fixed;
+    z-index: 1;
+}
+
+/* First logo of navigation bar */
+#header .logo1{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 5px 0px;
+}
+
+#header a{
+    margin: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+/* Header Navigation Search bar */
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  margin: 8px 5px;
+}
+
+.icon {
+  padding: 5px;
+  margin-top: 15px;
+  background: #5133A7;
+  color: white;
+  min-width: 40px;
+  height: 30px;
+  text-align: center;
+  border-radius: 5%;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  height: 30px;
+  margin-top: 15px;
+  background-color: #5133A7;
+}
+
+.input-field:focus {
+  border: 1px solid #5133A7;
+}
+
+.icon-bell{
+    padding: 6px;
+    margin: 15px 30px;
+}
+
+/* Second logo of navigation bar */
+#header .logo2{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+
+/* side bar 1 */
+
+.single-artist-sidenav-1{
+  height: 100%;
+  width: 30%;
+  margin-top: 100px;
+  position: fixed;
+  top: 0;
+  right: -20px;
+  background-color: #231F35;
+  overflow-x: hidden;
+  padding-top: 10px;
+}
+
+.div1 {
+    font-size: 30px;
+    color: white;
+    float: left;
+}
+
+.div2 {
+    float: right;
+    margin-right: 60px;
+    color: white;
+}
+
+
+.single-artist-side-content-1 table{
+    padding: 10px;
+    width: 100%;
+}
+
+.single-artist-side-content-1 table tr td{
+    padding: 5px;
+    font-size: 15px;
+    color: #ddd;
+}
+
+.single-artist-side-content-1 table tr td span{
+    font-size: 25px;
+    color: #ddd;
+    margin-right: 20px;
+}
+
+/* side nav bar 2 recently played */
+
+.single-artist-sidenav-2{
+  height: 100%;
+  width: 30%;
+  margin-top: 460px;
+  position: fixed;
+  top: 0;
+  right: -20px;
+  background-color: #231F35;
+  overflow-x: hidden;
+  padding-top: 10px;
+}
+
+.div1 {
+    font-size: 30px;
+    color: white;
+    float: left;
+}
+
+.div2 {
+    float: right;
+    margin-right: 60px;
+    color: white;
+}
+
+.single-artist-side-content-2 table{
+    padding: 10px;
+    width: 100%;
+}
+
+.single-artist-side-content-2 table tr td{
+    padding: 5px;
+    font-size: 15px;
+    color: #ddd;
+}
+
+.single-artist-side-content-2 table tr td span{
+    font-size: 25px;
+    color: #ddd;
+    margin-right: 20px;
+}
+
+
+/* Single Artist Image */
+
+.single-artist-container{
+    width: 65%;
+    height: 400px;
+    margin-left: 70px;
+    background-image: linear-gradient(to right, rgba(35, 31, 79, 1),rgba(35, 31, 89,0.6));
+    position: relative;
+    top: 120px;
+}
+
+/* Single artist image*/
+.single-artist-image{  
+    height: 400px;
+    width: 40%;
+    filter: hue-rotate(180deg);
+}
+
+
+/* Single artist caption */
+.single-image-caption{
+    position: absolute;
+    top: 40px;
+    left: 42%;
+    color: white;
+}
+
+.single-image-caption .caption-heading{
+    float: left;
+}
+
+.single-image-caption .follower{
+    float: right;
+    margin-right: 10px;
+}
+
+.single-image-caption .image-paragraph{
+    float: left;
+    margin-top: 20px;
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+
+/* Play button next to the image */
+.image-button button{
+    float: left;
+    border: none;
+    font-size: 25px;
+    padding: 5px 25px;
+    color: white;
+    background-image: linear-gradient(to right, blue,#AF19EF);
+}
+
+/*Follower button next to the image  */
+.button-follower{
+    float: right;
+    margin-right: 270px;
+    margin-top: 10px;
+}
+
+.button-track{
+    float: left;
+    margin-right: 270px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+/* Single Artist PlayList table*/
+
+.single-artist-playlist-table{
+    margin-top: 5px;
+    top: 150px;
+    width: 65%;
+    color: white;
+    margin-left: 70px;
+    background-color: #231F29;
+    height: 70px;
+    position: relative;
+}
+
+
+
+.single-artist-image .first-div{
+    top: 25px;
+    position: absolute;
+}
+
+.single-artist-image .first-div-image{
+    top: 5px;
+    left: 25px;
+    position: absolute;
+}
+
+.single-artist-image .first-div-para{
+    left: 95px;
+    top: 15px;
+    position: absolute;
+}
+
+.single-artist-playlist-table .timer{
+    top: 25px;
+    left: 45%;
+    position: absolute;
+}
+
+.single-artist-playlist-table .icons{
+    left: 90%;
+    top: 20px;
+    position: absolute;
+}
+
+/* Single Artist custom audio bar*/
+.audio-container{
+    width: 100%;
+    height: 60px;
+    background-color: #231F49;
+    color: #fff;
+    overflow: hidden;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.audio-container .container-1 table tr td{
+      padding: 5px;
+}
+
+.audio-container .container-2 .outter{
+    width: 300px;
+    border-radius: 20px;
+    height: 5px;
+    background-color: white;
+    position: relative;
+}
+
+.audio-container .container-2 .outter .inner{
+    width: 215px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 5px;
+    position: absolute;
+    background-color: green;
+}
+
+.audio-container .container-2 .outter .inner .dot{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    left: 215px;
+    top: -5px;
+    background-color: white;
+}
+
+.container-2 .play-icons{
+    padding: 0px 15px;
+}
+
+.container-2 .one{
+    margin-left: 60px;
+}
+
+.audio-container .container-3 table{
+      margin-left: 20px;
+}
+
+.audio-container .container-3 .outter{
+    width: 50px;
+    border-radius: 20px;
+    height: 5px;
+    background-color: white;
+    position: relative;
+}
+
+.audio-container .container-3 .outter .inner{
+    width: 30px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 5px;
+    position: absolute;
+    background-color: green;
+}
+
+.audio-container .container-3 .outter .inner .dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    left: 30px;
+    top: -2px;
+    background-color: white;
+}

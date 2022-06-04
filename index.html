@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Music Player Project - CSS</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+	<!-- Navigation Bar  -->
+	<header id="header">
+		<div><img src="img/musiclogo.jpg" alt="images" class="logo1"> </div>
+		<a href="#">Favourites</a>
+		<div class="input-container">
+         <i class="material-icons icon">search</i>
+         <input class="input-field" type="text" placeholder="Search" name="search">
+         <i class="material-icons icon">mic</i>
+         <i class="material-icons icon-bell">notifications_active </i>
+         <div><img src="img/billie.jpg" alt="image" class="logo2"> </div>
+        </div>
+	</header>
+
+	<!-- Main Song tag -->
+
+	<main>
+
+		<!-- Main Image Carousel -->
+
+		<section class="image-section">
+			<div><img src="img/billie.jpg" alt="images" class="img1"> </div>
+			<div><img src="img/singer2.jpg" alt="images" class="img2"> </div>
+			<div><img src="img/singer3.jpeg" alt="images" class="img3"> </div>
+			
+		</section>
+
+		<!-- Release Song  -->
+
+		<section id="release-song">
+			<table>
+				<caption>Latest Release</caption>
+				<tr>
+					<td>
+						<div class="container">
+						<img src="img/rockstar.jpg" alt="rockstar" class="image" width="80px" height="80px">
+  						<div class="overlay">
+  						<a href="#" class="icons">
+    					<i class="fas fa-play"></i>
+  						</a>
+  						</div>
+						</div>
+				    </td>
+
+					<td><h4>Onism</h4> <p>March 30, 2019</p> </td>
+					<td>
+						<div class="release-icon"><i class="material-icons">more_horiz </i>
+						<div class="release-song-dropdown">
+						<div class="dropdown"><i class="material-icons">play_arrow</i> Play Now</div>
+						<div class="dropdown"><i class="material-icons">add</i> Add To Queue</div>
+						<div class="dropdown"><i class="material-icons">playlist_add_check</i>Add To PlayList</div>
+						<div class="dropdown"><i class="material-icons">info</i>Get Info</div>
+						</div>
+				      	<p>4:31 </p>
+				  		</div>
+					</td>
+
+					<td>
+						<div class="container">
+						<img src="img/rockstar.jpg" alt="rockstar" class="image" width="80px" height="80px">
+  						<div class="overlay">
+  						<a href="#" class="icons">
+    					<i class="fas fa-play"></i>
+  						</a>
+  						</div>
+						</div>
+					</td>
+					<td><h4>Onism</h4> <p>March 30, 2019</p> </td>
+					<td>
+						<div class="release-icon"><i class="material-icons release-icons">more_horiz</i>
+						<div class="release-song-dropdown">
+							<div class="dropdown"><i class="material-icons">play_arrow</i> Play Now</div>
+							<div class="dropdown"><i class="material-icons">add</i> Add To Queue</div>
+							<div class="dropdown"><i class="material-icons">playlist_add_check</i> Add To PlayList</div>
+							<div class="dropdown"><i class="material-icons">info</i> Get Info</div>
+						</div>
+						<p>4:31 </p> 
+						</div>
+				</td>
+				</tr>
+
+				<tr>
+					<td>
+						<div class="container">
+						<img src="img/rockstar.jpg" alt="rockstar" class="image" width="80px" height="80px">
+  						<div class="overlay">
+  						<a href="#" class="icons">
+    					<i class="fas fa-play"></i>
+  						</a>
+  						</div>
+						</div>
+					</td>
+					<td><h4>Onism</h4> <p>March 30, 2019</p> </td>
+					<td>
+					<div class="release-icon"><i class="material-icons">more_horiz</i>
+					<div class="release-song-dropdown">
+						<div class="dropdown"><i class="material-icons">play_arrow</i>Play Now</div>
+						<div class="dropdown"><i class="material-icons">add</i>Add To Queue</div>
+						<div class="dropdown"><i class="material-icons">playlist_add_check</i>Add To PlayList</div>
+						<div class="dropdown"><i class="material-icons">info</i>Get Info</div>
+					</div>
+						<p>4:31 </p>
+				    	</div>
+					</td>
+
+					<td>
+						<div class="container">
+						<img src="img/rockstar.jpg" alt="rockstar" class="image" width="80px" height="80px">
+  						<div class="overlay">
+  						<a href="#" class="icons">
+    					<i class="fas fa-play"></i>
+  						</a>
+  						</div>
+						</div>
+					</td>
+					<td><h4>Onism</h4> <p>March 30, 2019</p> </td>
+					<td>
+						<div class="release-icon"><i class="material-icons">more_horiz</i>
+						<div class="release-song-dropdown">
+						<div class="dropdown"><i class="material-icons">play_arrow</i>Play Now</div>
+						<div class="dropdown"><i class="material-icons">add</i>Add To Queue</div>
+						<div class="dropdown"><i class="material-icons">playlist_add_check</i>Add To PlayList</div>
+						<div class="dropdown"><i class="material-icons">info</i>Get Info</div>
+						</div>
+						<p>4:31 </p>
+						</div>
+					</td> 
+				</tr>
+			</table>
+		</section>
+
+		<!-- Custom audio bar -->
+
+		<section id="custom-audio">
+			<div class="audio-container">
+			<div class="container-1">
+				<table>
+					<tr>
+						<td><img src="img/singer7.jpg" alt="image" width="40px" height="40px"></td>
+  						<td><h5>Imagine By Joy</h5> <p>Joy Lemon</p></td>
+  						<td><span class="material-icons">favorite_border</span> <span class="material-icons">	not_interested</span></td>
+  					</tr>
+  				</table>
+  			</div>
+
+  			<div class="container-2">
+  				<table>
+  					<tr>
+					<td colspan="3">
+					<i class="fas fa-random play-icons one"></i>
+					<i class="fas fa-step-backward play-icons"></i>
+					<i class="far fa-play-circle play-icons"></i>
+					<i class="fas fa-step-forward play-icons"></i>
+					<i class="fas fa-repeat play-icons"></i>
+					</td>
+					</tr>
+					<tr>
+						<td>3:40</td>
+						<td>
+							<div class="outter"><div class="inner"><div class="dot"></div> </div></div>
+						</td>
+						<td>5:30</td>
+					</tr>
+				</table>
+			</div>
+
+			<div class="container-3">
+				<table>
+					<tr>
+
+					<td><span class="material-icons">queue_music</span></td>
+					<td><span class="material-icons">volume_up</span></td>
+					<td><div class="outter"><div class="inner"><div class="dot"></div> </div></div></td>
+					<td><span class="material-icons">open_in_full</span></td>
+					
+					</tr>
+				</table>
+			</div>
+
+			</div>
+		</section>
+
+		<!-- Popular Artists Section -->
+
+		<section id="popular-artists">
+			<div class="popular-artist-heading"><h2>Popular Artist</h2> </div>
+
+			<div class="popular-artist-container">
+
+			<div class="popular-artist-image-container">
+				<img src="img/ArianaGrande.jpg" alt="image" class="popular-artist-image">
+				<div class="popular-artist-overlay">
+  					<a href="singleArtistPlayList.html" class="artist-icons">
+    				<i class="fas fa-play"></i>
+  					</a>
+  				</div>
+  				<div class="popular-artist-image-caption">
+  					<h5>Ariana Grande</h5>
+  				</div>
+			</div>
+
+
+			<div class="popular-artist-image-container">
+				<img src="img/singer8.jpg" alt="image" class="popular-artist-image">
+				<div class="popular-artist-overlay">
+  					<a href="singleArtistPlayList.html" class="artist-icons">
+    				<i class="fas fa-play"></i>
+  					</a>
+  				</div>
+  				<div class="popular-artist-image-caption">
+  					<h5>Shreya Ghoshal</h5>
+  				</div>
+			</div>
+
+
+			<div class="popular-artist-image-container">
+				<img src="img/singer9.jpg" alt="image" class="popular-artist-image">
+				<div class="popular-artist-overlay">
+  					<a href="singleArtistPlayList.html" class="artist-icons">
+    				<i class="fas fa-play"></i>
+  					</a>
+  				</div>
+  				<div class="popular-artist-image-caption">
+  					<h5>Albums</h5>
+  				</div>
+			</div>
+
+
+			<div class="popular-artist-image-container">
+				<img src="img/taylorshift.jpg" alt="image" class="popular-artist-image">
+				<div class="popular-artist-overlay">
+  					<a href="singleArtistPlayList.html" class="artist-icons">
+    				<i class="fas fa-play"></i>
+  					</a>
+  				</div>
+  				<div class="popular-artist-image-caption">
+  					<h5>Taylor Swift</h5>
+  				</div>
+			</div>
+
+
+			<div class="popular-artist-image-container">
+				<img src="img/billie.jpg" alt="image" class="popular-artist-image">
+				<div class="popular-artist-overlay">
+  					<a href="singleArtistPlayList.html" class="artist-icons">
+    				<i class="fas fa-play"></i>
+  					</a>
+  				</div>
+  				<div class="popular-artist-image-caption">
+  					<h5>Billie Eilish</h5>
+  				</div>
+			</div>
+
+
+			<div class="popular-artist-image-container">
+				<img src="img/singer6.jpg" alt="image" class="popular-artist-image">
+				<div class="popular-artist-overlay">
+  					<a href="singleArtistPlayList.html" class="artist-icons">
+    				<i class="fas fa-play"></i>
+  					</a>
+  				</div>
+  				<div class="popular-artist-image-caption">
+  					<h5>Himesh Reshammiya</h5>
+  				</div>
+			</div>
+
+			</div>
+
+		<!-- Popular Artist PlatList Content-->
+
+			<div class="playlist-content">
+				<div class="playlist-image">
+				<img src="img/station.jpg" alt="image" class="playlist-image-1">
+				</div>
+
+			<div class="playlist-image">
+				<img src="img/heart.jpg" alt="image" class="playlist-image">
+				<div class="playlist-overlay">
+  					<span>Love</span>
+  				</div>
+			</div>
+
+			<div class="playlist-image">
+				<img src="img/retro.jpg" alt="image" class="playlist-image">
+				<div class="playlist-overlay">
+  					<span>Retro</span>
+  				</div>
+			</div>
+
+			<div class="playlist-image">
+				<img src="img/chill.jpg" alt="image" class="playlist-image">
+				<div class="playlist-overlay">
+  					<span>Chill</span>
+  				</div>
+			</div>
+
+			<div class="playlist-image">
+				<img src="img/workout.jpg" alt="image" class="playlist-image">
+				<div class="playlist-overlay">
+  					<span>WorkOut</span>
+  				</div>
+			</div>
+
+			<div class="playlist-image">
+				<img src="img/rocksinger.jpg" alt="image" class="playlist-image">
+				<div class="playlist-overlay">
+  					<span>Rock</span>
+  				</div>
+			</div>
+
+			<div class="playlist-image">
+				<img src="img/popsinger.jpg" alt="image" class="playlist-image">
+				<div class="playlist-overlay">
+  					<span>Pop</span>
+  				</div>
+			</div>
+
+			</div>
+
+			<!-- Music Image -->
+
+			<div class="artist-music-image">
+				<div class="music-image-container">
+					<img src="img/party.jpg" alt="party" class="music-image">
+					<div class="music-overlay">
+						<span>Party</span>
+					</div>
+				</div>
+
+				<div class="music-image-container">
+					<img src="img/electronicmusic.jpg" alt="party" class="music-image">
+					<div class="music-overlay">
+						<span>Electronic</span>
+					</div>
+				</div>
+
+				<div class="music-image-container">
+					<img src="img/roadtrip.jpg" alt="party" class="music-image">
+					<div class="music-overlay">
+						<span>Road Trip</span>
+					</div>
+				</div>
+			</div>
+
+			<br><br>
+		</section>
+
+		<!-- Latest english song section -->
+
+		<section id="latest-english-songs">
+			<div class="english-song-header"><h3>Latest English </h3></div>
+			<div class="english-song-container">
+				<div class="english-song-image-container">
+					<img src="img/englishsong1.jpg" alt="song-image" class="english-song-image">
+					<div class="english-song-caption">
+						<h4>Onism</h4>
+						<p>March 11, 2015</p>
+					</div>
+				</div>
+
+				<div class="english-song-image-container">
+					<img src="img/englishsong2.jpg" alt="song-image" class="english-song-image">
+					<div class="english-song-caption">
+						<h4>Onism</h4>
+						<p>April 11, 2016</p>
+					</div>
+				</div>
+
+				<div class="english-song-image-container">
+					<img src="img/englishsong3.jpg" alt="song-image" class="english-song-image">
+					<div class="english-song-caption">
+						<h4>Onism</h4>
+						<p>May 11, 2017</p>
+					</div>
+				</div>
+
+				<div class="english-song-image-container">
+					<img src="img/englishsong4.jpg" alt="song-image" class="english-song-image">
+					<div class="english-song-caption">
+						<h4>Onism</h4>
+						<p>March 15, 2018</p>
+					</div>
+				</div>
+
+				<div class="english-song-image-container">
+					<img src="img/englishsong5.jpg" alt="song-image" class="english-song-image">
+					<div class="english-song-caption">
+						<h4>Onism</h4>
+						<p>March 11, 2015</p>
+					</div>
+				</div>
+
+				<div class="english-song-image-container">
+					<img src="img/englishsong6.jpg" alt="song-image" class="english-song-image">
+					<div class="english-song-caption">
+						<h4>Onism</h4>
+						<p>June 11, 2019</p>
+					</div>
+				</div>
+				
+			</div>
+			
+		</section>
+
+		<section id="latest-hindi-songs">
+			<div class="hindi-song-header"><h3>Latest Hindi </h3></div>
+			<div class="english-song-container">
+				<div class="english-song-image-container">
+					<img src="img/hindisong1.jpg" alt="song-image" class="english-song-image">
+					<div class="english-song-caption">
+						<h4>Onism</h4>
+						<p>March 11, 2015</p>
+					</div>
+				</div>
+
+				<div class="english-song-image-container">
+					<img src="img/hindisong2.jpg" alt="song-image" class="english-song-image">
+					<div class="english-song-caption">
+						<h4>Onism</h4>
+						<p>April 11, 2016</p>
+					</div>
+				</div>
+
+				<div class="english-song-image-container">
+					<img src="img/hindisong3.jpg" alt="song-image" class="english-song-image">
+					<div class="english-song-caption">
+						<h4>Onism</h4>
+						<p>May 11, 2017</p>
+					</div>
+				</div>
+
+				<div class="english-song-image-container">
+					<img src="img/hindisong4.jpg" alt="song-image" class="english-song-image">
+					<div class="english-song-caption">
+						<h4>Onism</h4>
+						<p>March 15, 2018</p>
+					</div>
+				</div>
+
+				<div class="english-song-image-container">
+					<img src="img/hindisong5.jpg" alt="song-image" class="english-song-image">
+					<div class="english-song-caption">
+						<h4>Onism</h4>
+						<p>March 11, 2015</p>
+					</div>
+				</div>
+
+				<div class="english-song-image-container">
+					<img src="img/hindisong6.jpg" alt="song-image" class="english-song-image">
+					<div class="english-song-caption">
+						<h4>Onism</h4>
+						<p>June 11, 2019</p>
+					</div>
+				</div>
+				
+			</div>
+			
+		</section>
+
+	</main>
+
+	<!-- SideBar Scrolling -->
+
+	<aside id="side">
+		<div class="sidenav">
+			<div class="div1"><p><b>My PlayList</b> </p>
+			<div class="que-dropdown">
+				<ul> 
+					<li>Queue <i class="material-icons expand">expand_more </i>
+						<ul>
+							<li>Playlists</li>
+							<li>Favourite Songs</li>
+						</ul>
+			        </li>
+			    </ul> 
+			</div>
+		</div>
+
+			<div class="side-content">
+  			<table>
+  				<tr>
+  					<td>01</td>
+  					<td><img src="img/live_music.jpg" alt="image" width="60px" height="60px"></td>
+  					<td><h5>New Skin</h5> <p>Flome</p></td>
+  					<td><span class="material-icons">favorite_border</span></td>
+  				</tr>
+
+  				<tr>
+  					<td>02</td>
+  					<td><img src="img/music_party.jpg" alt="image" width="60px" height="60px"></td>
+  					<td><h5>Worry bout us</h5> <p>Rose Love</p></td>
+  					<td><span class="material-icons">favorite_border</span></td>
+  				</tr>
+
+  				<tr>
+  					<td>03</td>
+  					<td><img src="img/nightbar.jpg" alt="image" width="60px" height="60px"></td>
+  					<td><h5>Mirage</h5> <p>flome</p></td>
+  					<td><span class="material-icons">favorite_border</span></td>
+  				</tr>
+
+  				<tr>
+  					<td>04</td>
+  					<td><img src="img/musiclogo.jpg" alt="image" width="60px" height="60px"></td>
+  					<td><h5>New Skin</h5> <p>flome</p></td>
+  					<td><span class="material-icons">favorite_border</span></td>
+  				</tr>
+
+  				<tr>
+  					<td>05</td>
+  					<td><img src="img/singer2.jpg" alt="image" width="60px" height="60px"></td>
+  					<td><h5>Brown rang</h5> <p>Yo Yo Honey Singh</p></td>
+  					<td><span class="material-icons">favorite_border</span></td>
+  				</tr>
+
+  				<tr>
+  					<td>06</td>
+  					<td><img src="img/live_music.jpg" alt="image" width="60px" height="60px"></td>
+  					<td><h5>The Little Boy</h5> <p>flome</p></td>
+  					<td><span class="material-icons">favorite_border</span></td>
+  				</tr>
+
+  				<tr>
+  					<td>07</td>
+  					<td><img src="img/singer3.jpeg" alt="image" width="60px" height="60px"></td>
+  					<td><h5>Benothe</h5> <p>KenDog</p></td>
+  					<td><span class="material-icons">favorite_border</span></td>
+  				</tr>
+
+  				<tr>
+  					<td>08</td>
+  					<td><img src="img/singer4.jpg" alt="image" width="60px" height="60px"></td>
+  					<td><h5>New Skin</h5> <p>flome</p></td>
+  					<td><span class="material-icons">favorite_border</span></td>
+  				</tr>
+
+  				<tr>
+  					<td>09</td>
+  					<td><img src="img/singer6.jpg" alt="image" width="60px" height="60px"></td>
+  					<td><h5>Giveme EveryThing</h5> <p>Pitbull</p></td>
+  					<td><span class="material-icons">favorite_border</span></td>
+  				</tr>
+
+  				<tr>
+  					<td>10</td>
+  					<td><img src="img/singer7.jpg" alt="image" width="60px" height="60px"></td>
+  					<td><h5>FireBall</h5> <p>Pitbull</p></td>
+  					<td><span class="material-icons">favorite_border</span></td>
+  				</tr>
+
+  				<tr>
+  					<td>11</td>
+  					<td><img src="img/rockstar.jpg" alt="image" width="60px" height="60px"></td>
+  					<td><h5>Lonely Angel</h5> <p>Arsh</p></td>
+  					<td><span class="material-icons">favorite_border</span></td>
+  				</tr>
+
+  				<tr>
+  					<td>12</td>
+  					<td><img src="img/billie.jpg" alt="image" width="60px" height="60px"></td>
+  					<td><h5>Blank Space</h5> <p>Taylor Shift</p></td>
+  					<td><span class="material-icons">favorite_border</span></td>
+  				</tr>
+
+  				<tr>
+  					<td>13</td>
+  					<td><img src="img/singer3.jpeg" alt="image" width="60px" height="60px"></td>
+  					<td><h5>Benothe</h5> <p>KenDog</p></td>
+  					<td><span class="material-icons">favorite_border</span></td>
+  				</tr>
+
+  				<tr>
+  					<td>14</td>
+  					<td><img src="img/singer4.jpg" alt="image" width="60px" height="60px"></td>
+  					<td><h5>New Skin</h5> <p>flome</p></td>
+  					<td><span class="material-icons">favorite_border</span></td>
+  				</tr>
+
+  				<tr>
+  					<td>15</td>
+  					<td><img src="img/singer6.jpg" alt="image" width="60px" height="60px"></td>
+  					<td><h5>Giveme EveryThing</h5> <p>Pitbull</p></td>
+  					<td><span class="material-icons">favorite_border</span></td>
+  				</tr>
+
+  				<tr>
+  					<td>16</td>
+  					<td><img src="img/singer7.jpg" alt="image" width="60px" height="60px"></td>
+  					<td><h5>FireBall</h5> <p>Pitbull</p></td>
+  					<td><span class="material-icons">favorite_border</span></td>
+  				</tr>
+
+  				<tr>
+  					<td>17</td>
+  					<td><img src="img/rockstar.jpg" alt="image" width="60px" height="60px"></td>
+  					<td><h5>Lonely Angel</h5> <p>Arsh</p></td>
+  					<td><span class="material-icons">favorite_border</span></td>
+  				</tr>
+
+  				<tr>
+  					<td>18</td>
+  					<td><img src="img/billie.jpg" alt="image" width="60px" height="60px"></td>
+  					<td><h5>Blank Space</h5> <p>Taylor Shift</p></td>
+  					<td><span class="material-icons">favorite_border</span></td>
+  				</tr>
+  				
+  			</table>
+  			
+			</div>
+	    </div>
+	</aside>
+
+</body>
+</html>
